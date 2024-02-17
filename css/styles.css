@@ -211,8 +211,8 @@ body{
 /* Main-team */
 .team{
     background-color: #F4F4FD;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title{
@@ -231,13 +231,16 @@ body{
     gap: 24px;
 }
 
+.team-menu-item-first{
+    border-radius: 0px 0px 4px 4px;
+}
+
 .team-menu-item{
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
 }
 
 .team-img{
-    border-radius: 0px 0px 4px 4px;
     margin-bottom: 32px;
 }
 
@@ -313,8 +316,8 @@ body{
 }
 
 .portfolio-container{
-    border-top: none;
     border: 1px solid #e7e9fc;
+    border-top: none;
     padding: 32px 16px;
 }
 /* /Main-portfolio */
