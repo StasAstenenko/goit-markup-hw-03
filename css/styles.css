@@ -54,6 +54,10 @@ body{
     margin-right: auto;
 }
 /* Header */
+.page-header{
+    border-bottom: 1px solid #e7e9fc
+}
+
 .header-container{
     display: flex;
     justify-content: space-between;
@@ -71,7 +75,7 @@ body{
 
 .address-menu{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .logo{
@@ -91,7 +95,7 @@ body{
 
 .menu{
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .menu-link{
@@ -125,7 +129,7 @@ body{
 /* /Header */
 
 /* Main-Title */
-.title-container{
+.title{
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -154,7 +158,9 @@ body{
     padding-right: 32px;
     padding-top: 16px;
     padding-bottom: 16px;
+    min-width: 169px;
     border: none;
+    border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -172,7 +178,7 @@ body{
 /* Main-benefits */
 .benefits{
     padding-top: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
 }
 
 .benefits-menu{
@@ -210,7 +216,7 @@ body{
 }
 
 .team-title{
-    margin-bottom: 74px;
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -231,7 +237,13 @@ body{
 }
 
 .team-img{
+    border-radius: 0px 0px 4px 4px;
     margin-bottom: 32px;
+}
+
+.worker{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .team-menu-title{
@@ -245,7 +257,6 @@ body{
 }
 
 .team-discription{
-    margin-bottom: 32px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -256,14 +267,15 @@ body{
 
 /* Main-portfolio */
 .portfolio{
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
 .portfolio-menu{
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio-img{
@@ -271,7 +283,6 @@ body{
 }
 
 .portfolio-menu-item{
-    border: 1px solid #e7e9fc;
     width: calc((100% - 48px) / 3);
 }
 
@@ -287,7 +298,6 @@ body{
 
 .portfolio-menu-title{
     margin-bottom: 8px;
-    margin-left: 16px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -296,24 +306,28 @@ body{
 }
 
 .portfolio-discription{
-    margin-bottom: 32px;
-    margin-left: 16px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+.portfolio-container{
+    border-top: none;
+    border: 1px solid #e7e9fc;
+    padding: 32px 16px;
+}
 /* /Main-portfolio */
 
 /* Footer */
-.footer-container{
+.page-footer{
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
 .footer-logo{
-    display: block;
-    margin-bottom: 8px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .page-footer{
