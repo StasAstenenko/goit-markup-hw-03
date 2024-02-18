@@ -237,10 +237,6 @@ body{
     background-color: #FFFFFF;
 }
 
-.team-img{
-    margin-bottom: 32px;
-}
-
 .worker{
     padding-top: 32px;
     padding-bottom: 32px;
@@ -276,10 +272,6 @@ body{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-}
-
-.portfolio-img{
-    margin-bottom: 32px;
 }
 
 .portfolio-menu-item{
@@ -326,6 +318,13 @@ body{
 }
 
 .footer-logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
 }
